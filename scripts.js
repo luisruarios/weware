@@ -6,7 +6,6 @@ const el_parent = document.getElementById('parent');
 // add our event listener for the click
 btns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    console.log('hola');
     sidebar.classList.toggle("translate-x-full");
     sidebar.classList.contains("bg-black") ? sidebar.classList.remove("bg-black") : setTimeout(() => {
       sidebar.classList.add("bg-black");
